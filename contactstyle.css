@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&display=swap');
+
+.contactform {
+    
+    padding: 0 34px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin: 0 100px;
+
+}
+
+.contactform h1 {
+    font-family: 'Cabin', sans-serif;
+    padding: 12px 0;
+    color: rgb(14, 12, 33);
+}
+
+.contactform form div {
+    padding: 6px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+        width: 26vw;
+        padding: 3px;
+        border-radius: 5px;
+        margin: 6px 0 0 0;
+
+}
+
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+
+#emailHelp {
+        font-size: 12px;
+        padding: 3px 0 0 0;
+        color: midnightblue;
+        margin: 0 5px;
+}
+
+.btn-sm{
+    font-size:15px;
+}
+
+#footer{
+    padding:16% 0% 0% 50%;
+}

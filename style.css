@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.sidebar {
+    /* position: absolute; */
+    background-color: rgb(169, 165, 165);
+    font-family: 'Cabin', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 20px;
+
+
+}
+
+.sidebar nav li {
+    font-size: 25px;
+    list-style: none;
+    padding: 30px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.main {
+    /* background-color:rgb(0, 255, 187); */
+    width: 80vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(15, 77, 81); */
+    height: 50vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.MyPic img {
+    height: 30vh;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #228bc3;
+    position: sticky;
+
+
+}
+
+.Myinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 30px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+}
+
+.about {
+    font-size: 20px;
+}
+
+.moreabout {
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 23px;
+}
+
+.buttons {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(1, 136, 154);
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(1, 136, 154);
+
+}
+
+h1 {
+    font-family: 'Cabin', sans-serif;
+    /* margin: px; */
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+.intro{
+    margin: 50px 100px;
+}
+
+.intro h2 {
+    font-family: 'Cabin', sans-serif;
+    margin: 12px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillitem {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill {
+    width: 200px;
+    height: 8px;
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+.hundred {
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty {
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5 {
+    width: 75px;
+    background-color: yellow;
+}
+
+.sidebarGo{
+    transform: translate(-400px,0px);
+    position: absolute;
+
+}
+.hamburger .ham {
+    position: absolute;
+    cursor: pointer;
+    top: 50px;
+    left: 0px;
+}
+
+.hamburger .cross {
+    margin-left: -28px;
+    margin-top: 10px;
+}  
+
+
+@media (max-width:540px) {
+    * {
+        background-color: rgb(231, 237, 237);
+    }
+    .MyPic{
+        display: none;
+    }
+    /* .sidebar{
+        transform: translate(-400px,0px);
+        position: absolute;
+
+    } */
+    .intro, .blogcontainer, .contactform{
+        margin: 50px 8px;
+    }
+} 
